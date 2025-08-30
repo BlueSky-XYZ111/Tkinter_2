@@ -3,7 +3,7 @@ from PIL import Image , ImageTk
 
 root = Tk()
 root.title("Adding Image....")
-root.geometry("1000x1000")
+root.geometry("1080x1080")
 
 image1 = Image.open("image.png")
 upload = ImageTk.PhotoImage(image1)
